@@ -1,5 +1,8 @@
 # 9.Asynchrone | Extra The Colletion
 
+## Version
+- 1.2.1
+
 ## Description
 - It's a webpage representing a guitar collection with their information and specifications displayed in card format.
 
@@ -11,6 +14,8 @@
 - Card Creation: Each guitar is displayed dynamically by generating HTML elements in JavaScript.
 - New Features:
   - Scrollbar behavior improved for better UI consistency.
+
+- CSS Updated for responsive design at 1024px, 768px, 480px, 380px.
 
 ## Structure
 ```
