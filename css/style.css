@@ -10,7 +10,7 @@ body {
     position: absolute;
     background-image: url("../assets/bg.jpg");
     background-repeat: no-repeat;
-    background-size: 130%;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -153,3 +153,248 @@ img {
     color: rgb(253, 99, 99);
 }
 
+
+@media screen and (max-width: 1024px) {
+    #container {
+        grid-row: 2 / 3;
+        grid-column: 1 / 4;
+        position: relative;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        color: rgb(49, 49, 49);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #container {
+        grid-row: 2 / 3;
+        grid-column: 1 / 4;
+        position: relative;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        color: rgb(49, 49, 49);
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px 100px 1fr 100px;
+        position: absolute;
+        background-image: url("../assets/bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .principal-title {
+        width: 15.0em;
+        grid-row: 1 / 2;
+        grid-column: 1 / 4;
+        position: relative;
+        margin: auto;
+        padding-left: 1.2em;
+        padding-right: 1.2em;
+        background-color: grey;
+        border-radius: 10px;
+        border: solid black 0.1em;
+        color: rgb(49, 49, 49);
+    }
+
+    .style {
+        grid-template-rows: 2 / 3;
+        grid-column: 1 / 4;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        color: white;
+        text-align: center;
+        margin: auto;
+        padding: 0.5em;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        border: solid black 0.1em;
+    }
+    
+    option {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        color: white;
+        text-align: center;
+        margin: auto;
+        padding: 0.5em;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        border: solid black 0.1em;
+    }
+
+    #container {
+        grid-row: 3 / 4;
+        grid-column: 1 / 4;
+        position: relative;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        color: rgb(49, 49, 49);
+    }
+
+    .card {
+        height: 450px;
+        width: 400px;
+        position: relative;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-top: 1.2em;
+        padding-bottom: 1.2em;
+        background-color: grey;
+        border-radius: 10px;
+        border: solid black 0.1em;
+        box-shadow: 10px 10px 8px #101010;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        text-align: left;
+        place-items: center;
+    }
+
+    .card-content {
+        position: relative;
+        margin: auto;
+        padding-left: 25px;
+        height: 450px;
+        width: 230px;
+        grid-column: 1 / 2;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        overflow: scroll;
+        overflow-x: hidden;
+        scrollbar-color: white black;
+        scrollbar-width: thin;
+        scroll-behavior: smooth;
+    }
+
+
+}
+
+
+@media screen and (max-width: 380px) {
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 100px 100px 1fr 100px;
+        position: absolute;
+        background-image: url("../assets/bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .principal-title {
+        width: 15.0em;
+        grid-row: 1 / 2;
+        grid-column: 1 / 4;
+        position: relative;
+        margin: auto;
+        padding-left: 1.2em;
+        padding-right: 1.2em;
+        background-color: grey;
+        border-radius: 10px;
+        border: solid black 0.1em;
+        color: rgb(49, 49, 49);
+    }
+
+    .style {
+        grid-template-rows: 2 / 3;
+        grid-column: 1 / 4;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        color: white;
+        text-align: center;
+        margin: auto;
+        padding: 0.5em;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        border: solid black 0.1em;
+    }
+    
+    option {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1em;
+        color: white;
+        text-align: center;
+        margin: auto;
+        padding: 0.5em;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        border: solid black 0.1em;
+    }
+
+    #container {
+        grid-row: 3 / 4;
+        grid-column: 1 / 4;
+        position: relative;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        color: rgb(49, 49, 49);
+    }
+
+    .card {
+        height: 450px;
+        width: 350px;
+        position: relative;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-top: 1.2em;
+        padding-bottom: 1.2em;
+        background-color: grey;
+        border-radius: 10px;
+        border: solid black 0.1em;
+        box-shadow: 10px 10px 8px #101010;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        text-align: left;
+        place-items: center;
+    }
+
+    .card-content {
+        position: relative;
+        margin: auto;
+        padding-left: 25px;
+        height: 450px;
+        width: 200px;
+        grid-column: 1 / 2;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        overflow: scroll;
+        overflow-x: hidden;
+        scrollbar-color: white black;
+        scrollbar-width: thin;
+        scroll-behavior: smooth;
+    }
+
+
+}
