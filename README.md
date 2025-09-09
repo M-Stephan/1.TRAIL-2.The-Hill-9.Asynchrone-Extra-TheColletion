@@ -14,8 +14,10 @@
 ![MDN Web Docs](https://img.shields.io/badge/MDN_Web_Docs-black?style=for-the-badge&logo=mdnwebdocs&logoColor=white)
 
 ### 🎮 Game
-![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)
-- [→ Click here ←](https://m-stephan.github.io/1.TRAIL-2.The-Hill-9.Asynchrone-Extra-TheColletion/)
+<a href="https://m-stephan.github.io/1.TRAIL-2.The-Hill-9.Asynchrone-Extra-TheColletion/" target="_blank">
+  <img src="https://img.shields.io/badge/Live-Demo-green?style=for-the-badge" alt="Live Demo"/><br/> → Try here ←
+</a>
+
 ## Version
 - 1.2.1
 
